@@ -1,0 +1,12 @@
+[   66063ms] [WARNING] Unhandled error during execution of component event handler Proxy(Object) at <ElButton>
+at <ElDialogContent>
+at <ElFocusTrap>
+at <ElOverlay>
+at <BaseTransition>
+at <Transition>
+at <Teleport>
+at <ElDialog>
+at <BlankBillSegmentDialog>
+at <App> [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:5173/node_modules/.vite/deps/element-plus.js?v=1f8b763c:20210
+[   66069ms] ReferenceError: ElMessage is not defined
+    at handleSave (http://localhost:5173/src/components/BlankBillSegmentDialog.vue:104:5)

@@ -1,0 +1,49 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://192.168.2.50:3306/sinotrans_blankbill?useUnicode=true&characterEncoding=utf8mb4&serverTimezone=Asia/Shanghai
+    username: root
+    password: "7sQRN9#H@uAK"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+# ========== 新增白名单配置 ==========
+whitelist:
+  # API 路径白名单（不需要认证的接口）
+  paths:
+    - /api/v1/**
+    - /api/health
+    - /doc.html
+    - /webjars/**
+  
+  # IP 白名单（限制访问的IP）
+  ip:
+    enabled: true  # 是否启用IP白名单
+    list:
+      - 127.0.0.1
+      # 添加你需要允许的IP地址
+
+
+logging:
+  level:
+    root: INFO
+    com.sinotrans: DEBUG
+  file:
+    name: logs/sinotrans-blankbill.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

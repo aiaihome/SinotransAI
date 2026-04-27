@@ -1,0 +1,14 @@
+package com.sinotrans.blankbill.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CarrierDTO {
+    private Long id;
+    private String name;
+    private String code;
+}

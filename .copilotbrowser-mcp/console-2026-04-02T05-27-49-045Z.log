@@ -1,0 +1,36 @@
+[ 1693662ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "id". Expected Number with value 32, got String with value "32". 
+  at <SerialNumberDetailDrawer id="32" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:1735
+[ 1699468ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "id". Expected Number with value 31, got String with value "31". 
+  at <SerialNumberDetailDrawer id="31" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:1735
+[ 1710500ms] [WARNING] [Vue warn]: Invalid prop: type check failed for prop "id". Expected Number with value 32, got String with value "32". 
+  at <SerialNumberDetailDrawer id="32" onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <RouterView> 
+  at <App> @ http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:1735
+[ 1731278ms] [WARNING] Invalid prop: type check failed for prop "modelValue". Expected Date | Array | String | Number, got Object  null at <ElDatePicker>
+at <ElFormItem>
+at <ElForm>
+at <OperationLogList>
+at <RouterView>
+at <App> [Object, Object, Object, Object, Object, Object] @ http://localhost:5173/node_modules/.vite/deps/element-plus.js?v=1f8b763c:20210
+[ 1731279ms] [WARNING] Invalid prop: type check failed for prop "modelValue". Expected Date | Array | String | Number, got Object  null at <Picker>
+at <ElDatePicker>
+at <ElFormItem>
+at <ElForm>
+at <OperationLogList>
+at <RouterView>
+at <App> [Object, Object, Object, Object, Object, Object, Object] @ http://localhost:5173/node_modules/.vite/deps/element-plus.js?v=1f8b763c:20210
+[ 1731389ms] [WARNING] ElementPlusError: [ElPagination] Deprecated usages detected, please refer to the el-pagination documentation for more details
+    at debugWarn (http://localhost:5173/node_modules/.vite/deps/element-plus.js?v=1f8b763c:4755:35)
+    at Proxy.<anonymous> (http://localhost:5173/node_modules/.vite/deps/element-plus.js?v=1f8b763c:35584:5)
+    at renderComponentRoot (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:4680:35)
+    at ReactiveEffect.componentUpdateFn [as fn] (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:5571:22)
+    at ReactiveEffect.run (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:409:16)
+    at updateComponent (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:5494:13)
+    at processComponent (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:5462:8)
+    at patch (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:5256:28)
+    at patchBlockChildren (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:5422:4)
+    at patchElement (http://localhost:5173/node_modules/.vite/deps/vue.runtime.esm-bundler-CaV6uQJ2.js?v=1f8b763c:5389:4) @ http://localhost:5173/node_modules/.vite/deps/element-plus.js?v=1f8b763c:4755
